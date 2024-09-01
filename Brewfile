@@ -20,6 +20,7 @@ brew "kubernetes-cli"
 brew "kustomize"
 brew "sops"
 brew "fluxcd/tap/flux"
+brew "gh"
 
 # Utilities
 brew "aria2"
