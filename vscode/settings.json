@@ -1,0 +1,35 @@
+{
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "debug.javascript.autoAttachFilter": "always",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "redhat.telemetry.enabled": true,
+  "sops.defaults.ageKeyFile": "./age.key",
+  "sops.binPath": "/opt/homebrew/bin/sops",
+  "files.autoSave": "afterDelay",
+  "continue.enableTabAutocomplete": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "makefile.configureOnOpen": false,
+  "[vue]": {
+    "togglequotes.chars": [
+      "\"",
+      "'",
+      "`"
+    ]
+  },
+  "vs-kubernetes": {
+    "vs-kubernetes.crd-code-completion": "enabled"
+  },
+  "workbench.colorTheme": "Better Selenized Dark",
+  "explorer.confirmDelete": false,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "FiraCode Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Better Selenized Dark",
+  "workbench.preferredLightColorTheme": "Better Selenized Light",
+  "workbench.startupEditor": "none"
+}

@@ -1,0 +1,13 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = false
+
+[docker_context]
+disabled = true
+
+[hostname]
+ssh_only = false
+disabled = false
+
+[python]
+python_binary = ['./venv/bin/python', 'python']
+
