@@ -21,6 +21,8 @@ brew "kustomize"
 brew "sops"
 brew "fluxcd/tap/flux"
 brew "gh"
+brew "gitleaks"
+brew "pre-commit"
 
 # Utilities
 brew "aria2"

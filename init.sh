@@ -9,3 +9,5 @@ brew bundle --file ./Brewfile
 stow --restow --ignore ".DS_Store" --target=$HOME --dir="$(pwd)" files
 stow --restow --ignore ".DS_Store" --target=$HOME/Library/Application\ Support/Code/User/ --dir="$(pwd)" vscode
 
+# Setup pre-commit for this repository
+pre-commit install
