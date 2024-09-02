@@ -1,6 +1,7 @@
 # Dotfiles
 
-This folder is used to initialise my macs (hopefully with linux support again in the future)
+This folder is used to initialise my macs
+(hopefully with linux support again in the future)
 
 A quick copy/paste for setting up a computer is
 
@@ -16,4 +17,5 @@ Start a new shell and probably do this
 
 ```fish
 ssh-init $EMAIL
+gh auth login
 ```
