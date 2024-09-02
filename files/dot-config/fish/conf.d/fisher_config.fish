@@ -1,6 +1,3 @@
-if not type -q fisher
-  echo "`fisher` is not installed, install with `curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher` or check https://github.com/jorgebucaran/fisher"
-end
 
 set fisher_path ~/.config/fish/fisher
 
@@ -11,4 +8,8 @@ set fish_function_path $fish_function_path[1] $fisher_path/functions $fish_funct
 
 for file in $fisher_path/conf.d/*.fish
     source $file
+end
+
+if not type -q fisher
+  echo "`fisher` is not installed, install with `curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher` or check https://github.com/jorgebucaran/fisher"
 end

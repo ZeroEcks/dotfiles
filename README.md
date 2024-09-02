@@ -11,3 +11,9 @@ unzip ~/Documents/code/dotfiles.zip -d ~/Documents/code/dotfiles
 cd ~/Documents/code/dotfiles
 ./init.sh
 ```
+
+Start a new shell and probably do this
+
+```fish
+ssh-init $EMAIL
+```
